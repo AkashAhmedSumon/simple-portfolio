@@ -1,0 +1,114 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+/* Default Primary Btn */
+.btn-primary {
+  background-color: #fd6e0a;
+  color: #fff;
+  border: 0px;
+  font-size: 20px;
+  padding: 10px 15px;
+  text-transform: capitalize;
+  font-weight: 700;
+  transition: 01s;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  -webkit-transition: 01s;
+  -moz-transition: 01s;
+  -ms-transition: 01s;
+  -o-transition: 01s;
+}
+.btn-primary:hover {
+  background: #ffdbc1;
+  color: #474747;
+}
+
+/* Header Area Styles */
+.header-area {
+  background: #fff8f3;
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
+  background-position: bottom right, left center;
+  background-repeat: no-repeat;
+}
+
+nav {
+  margin: 0px 200px;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0px 0px;
+}
+.nav-mary {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+.text-primary {
+  color: #fd6e0a;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  list-style: none;
+}
+nav li a {
+  color: #474747;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: capitalize;
+  margin: 0px 25px 0px;
+  transition: 01s;
+  -webkit-transition: 01s;
+  -moz-transition: 01s;
+  -ms-transition: 01s;
+  -o-transition: 01s;
+}
+nav li a:hover {
+  color: #fd6e0a;
+}
+/* Banner Area Style */
+.banner-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 30px 0px 150px;
+}
+.banner-area img {
+  width: 580px;
+}
+.banner-content {
+  max-width: 500px;
+}
+.banner-greating {
+  font-size: 45px;
+  font-weight: 600;
+  color: #474747;
+}
+.banner-title {
+  font-size: 85px;
+  font-weight: 700;
+  color: #181818;
+  text-transform: capitalize;
+}
+.banner-description {
+  font-size: 18px;
+  font-weight: 400;
+  color: #757575;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+/* Main Section Styles */
